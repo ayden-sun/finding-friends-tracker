@@ -1,5 +1,3 @@
-import React, { useState, useEffect } from 'react'; import { Users, Trophy, Calendar, Plus, Minus, Edit2, RotateCcw, Star, Award, Target } from 'lucide-react'; 
-
 import React, { useState, useEffect } from 'react';
 import { Users, Trophy, Calendar, Plus, Minus, Edit2, RotateCcw, Star, Award, Target } from 'lucide-react';
 
