@@ -55,7 +55,7 @@ const FindingFriendsTracker = () => {
     const [host, setHost] = useState('');
     const [friends, setFriends] = useState([]);
     const [gameMode, setGameMode] = useState('normal');
-    const [bid, setBid] = useState(80);
+    const [bid, setBid] = useState(150);
     const [noBids, setNoBids] = useState(false);
     const [opponentScore, setOpponentScore] = useState('');
     const [editingIndex, setEditingIndex] = useState(-1);
@@ -130,7 +130,7 @@ const FindingFriendsTracker = () => {
       setSelectedPlayers([]);
       setHost('');
       setFriends([]);
-      setBid(80);
+      setBid(150);
       setOpponentScore('');
       setNoBids(false);
     };
